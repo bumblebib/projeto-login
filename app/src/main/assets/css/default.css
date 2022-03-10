@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.principal{
+    height: 240px;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    margin: auto;
+}
+
+h1{
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+
+div.separador{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    border-bottom: 1px solid #333;
+    margin: 20px auto;
+    justify-content: center;
+}
+div.separador img{
+    width: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"]{
+    display: block;
+    width: 70%;
+    padding: 5px;
+    border: none;
+}
+
+input::placeholder{
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+    text-align: center;
+}
+
+form p{
+    text-align: center;
+}
+
+form p a{
+    text-decoration: none;
+    color: #90c;
+}
+
+input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    background: #000;
+    color: #fff;
+    letter-spacing: 4px;
+}
+footer{
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    background: #000;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 1.2em;
+}
